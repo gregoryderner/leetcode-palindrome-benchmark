@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node palindrome.js",
+    "generate": "node generatePalindorme.js",
+    "bench": "node --expose-gc test.js"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "gc-stats": "^1.4.0"
+  }
+}
